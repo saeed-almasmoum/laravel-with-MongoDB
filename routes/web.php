@@ -24,12 +24,11 @@ Route::get('/test-mongo', function () {
 });
 
 Route::get('/create_eloquent_mongo', function () {
-
     return CustomerCdur::create([
-        'first_name'=>'saeed',
-        'family_name'=>'almasmous',
-        'address'=>'free syria',
-     
+        'first_name' => 'saeed',
+        'family_name' => 'almasmous',
+        'address' => 'free syria',
+
     ]);
 });
 
